@@ -1,0 +1,102 @@
+.subscription {
+    padding-top: 100px;
+}
+
+.bg-free {
+    background-image: url('../images/subscribe_1.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg-base {
+    background-image: url('../images/subscribe_2.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg-prem {
+    background-image: url('../images/subscribe_3.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-cont {
+    text-align: center;
+}
+
+.sub-form {
+    margin-bottom: 48px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    margin-bottom: 200px;
+    margin-top: 24px;
+    color: $text-base-2;
+    font-size: 24px;
+    font-family: "Roboto-Regular", sans-serif;
+    font-weight: 400;
+}
+
+.pricing-value {
+    font-size: 64px;
+    margin-bottom: 40px;
+    line-height: 1em;
+    color: $text-base-2;
+}
+
+.fiat {
+    font-size: 32px;
+    vertical-align: text-top;
+}
+
+.pricing-item {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+
+    a {
+        color: $text-base-2;
+        text-decoration: none;
+    }
+}
+
+.btn-sub {
+    border: 1px solid $text-base-2;
+    display: inline-block;
+    min-width: 318px;
+    font-size: 16px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.pricing-footer {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    max-width: 318px;
+    color: $text-base-2;
+}
+
+.flex-set {
+    justify-content: space-between;
+
+}
+
+.sub-end {
+    font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+    .flex-set {
+        justify-content: center;
+    }
+    .pricing-item {
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -8,3 +8,25 @@ $brown:#95390C;
 $purple:#5328A1;
 $search:#3C3B3D;
 $search-text:#757575;
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  }
+  
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
