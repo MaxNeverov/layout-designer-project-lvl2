@@ -600,6 +600,19 @@ body {
     max-width: 137px;
   }
 }
+.similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.funs {
+  color: #cacaca;
+}
+
+.similar-col {
+  text-align: center;
+}
+
 .footer-a {
   color: #E0E0E0;
   text-decoration: none;
