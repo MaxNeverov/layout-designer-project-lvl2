@@ -469,6 +469,7 @@ body {
   min-width: 200px;
   border: none;
   align-items: center;
+  max-height: 62px;
 }
 
 .svg-img {
@@ -489,6 +490,62 @@ body {
 
 @media (max-width: 1199px) {
   .purple-btn {
+    margin-bottom: 24px;
+  }
+}
+.top-tracks {
+  padding-top: 100px;
+}
+
+.top-track-main-title {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.track-col {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-main-flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-secondary-flex {
+  min-width: 551px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.album-img {
+  margin-right: 15px;
+}
+
+.track-info p {
+  font-size: 12.8px;
+  color: #cacaca;
+}
+
+.track-info h3 {
+  font-size: 12.8px;
+}
+
+.secondary-flex-m0 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1199px) {
+  .top-secondary-flex {
+    min-width: 374px;
+  }
+
+  .top-main-flex {
+    justify-content: center;
+  }
+
+  .secondary-flex-m24 {
     margin-bottom: 24px;
   }
 }
