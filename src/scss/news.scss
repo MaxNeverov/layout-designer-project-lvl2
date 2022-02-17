@@ -53,6 +53,10 @@
   }
 
   @media (max-width: 1199px) {
+    .news-item {
+        justify-content: center;
+    }
+    
     .news-h3 {
         font-size: 16px;
     }
@@ -64,5 +68,8 @@
 
     .news-item-reverse {
         flex-direction: column-reverse;
+        align-items: center;
     }
+
+ 
   }
