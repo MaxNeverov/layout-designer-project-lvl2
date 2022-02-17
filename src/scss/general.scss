@@ -21,7 +21,9 @@ body {
 .mb-40 {
   margin-bottom: 40px;
 }
-  
+
+
+
 .cont-rel {
     position: relative;
 }
@@ -39,6 +41,7 @@ body {
   border-radius: 5px;
   text-transform: uppercase;
   color: $text-base-2;
+  text-decoration: none;
 }
 
 @media (min-width: 1240px) {
@@ -47,12 +50,14 @@ body {
       line-height: 90px;
       font-family: "Roboto-Bold", sans-serif;
       text-transform: uppercase;
+      text-align: center;
     }
     h2{
       font-size: 38px;
       line-height: 57px;
       font-family: "Roboto-Bold", sans-serif;
       text-transform: uppercase;
+      text-align: center;
     }
     .container {
       width: 1200px;
@@ -66,12 +71,14 @@ body {
         line-height: 45px;
         font-family: "Roboto-Bold", sans-serif;
         text-transform: uppercase;
+        text-align: center;
       }
     h2{
         font-size: 18px;
         line-height: 27px;
         font-family: "Roboto-Bold", sans-serif;
         text-transform: uppercase;
+        text-align: center;
       }
     .container {
         width: 100%;
